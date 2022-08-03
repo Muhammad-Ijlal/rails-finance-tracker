@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
   root "welcome#index"
+  get 'my_portfolio', to: 'users#my_portfolio'
+  post 'search_stock', to: 'stocks#search'
+  get 'users/my_portfolio'
   devise_for :users
+  resources :user_stocks, only: [:create, :destroy]
 end

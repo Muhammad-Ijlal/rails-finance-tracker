@@ -55,6 +55,7 @@ gem 'devise'
 # Devise bootstrap views
 gem 'devise-bootstrap-views', '~> 1.0'
 
+gem 'font-awesome-rails'
 # Finance data
 gem 'iex-ruby-client'
 group :development, :test do
