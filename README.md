@@ -1,4 +1,4 @@
-# RailsPhotoApp
+# Finance Tracker App with Ruby on Rails
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
